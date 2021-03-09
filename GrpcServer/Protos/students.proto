@@ -2,7 +2,7 @@ syntax = "proto3";
 
 option csharp_namespace = "GrpcServer";
 
-service Students {
+service Student {
 	rpc GetStudentInfo (StudentModelLookup) returns (StudentModel);
 }
 
