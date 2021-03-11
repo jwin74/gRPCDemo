@@ -4,6 +4,10 @@ option csharp_namespace = "GrpcClient";
 
 service Student {
 	rpc GetStudentInfo (StudentModelLookup) returns (StudentModel);
+	rpc GetAllStudents (ListStudents) returns (stream .StudentModel);
+}
+message ListStudents{
+
 }
 
 message StudentModelLookup {
@@ -17,3 +21,4 @@ message StudentModel {
 	bool isActive = 4;
 	int32 studentIdNumber = 5;
 }
+
