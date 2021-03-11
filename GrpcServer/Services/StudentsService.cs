@@ -30,6 +30,14 @@ namespace GrpcServer.Services
             return Task.FromResult(new StudentModel());
         }
 
+        public override async Task GetAllStudents(ListStudents request, IServerStreamWriter<StudentModel> responseStream, ServerCallContext context)
+        {
+            foreach (var student in _students)
+            {
+                await responseStream.WriteAsync(student);
+            }
+        }
+
         private static List<StudentModel> InitializeList()
         {
             var students = new List<StudentModel>
