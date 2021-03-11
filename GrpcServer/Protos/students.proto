@@ -4,7 +4,12 @@ option csharp_namespace = "GrpcServer";
 
 service Student {
 	rpc GetStudentInfo (StudentModelLookup) returns (StudentModel);
+	rpc GetAllStudents (ListStudents) returns (stream .StudentModel);
 }
+message ListStudents{
+
+}
+
 
 message StudentModelLookup {
 	int32 studentId = 1;
