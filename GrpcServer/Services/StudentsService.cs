@@ -44,41 +44,41 @@ namespace GrpcServer.Services
             {
                 new StudentModel
                 {
-                    FirstName = "Jasper",
-                    LastName = "Andersen",
-                    EmailAddress = "jasp0359@stud.kea.dk",
+                    FirstName = "Jxxxxx",
+                    LastName = "Axxxxxxx",
+                    EmailAddress = "jxxxxxxx@stud.kea.dk",
                     IsActive = true,
                     StudentIdNumber = 123456
                 },
                 new StudentModel
                 {
-                    FirstName = "Andrian",
-                    LastName = "Vangelov",
-                    EmailAddress = "andr28f2@stud.kea.dk",
+                    FirstName = "Axxxxxx",
+                    LastName = "Vxxxxxxx",
+                    EmailAddress = "axxxxxxx@stud.kea.dk",
                     IsActive = true,
                     StudentIdNumber = 123457
                 },
                 new StudentModel
                 {
-                    FirstName = "Immanuel",
-                    LastName = "Lokzinsky",
-                    EmailAddress = "imma0013@stud.kea.dk",
+                    FirstName = "Ixxxxxxx",
+                    LastName = "Lxxxxxxxx",
+                    EmailAddress = "ixxxxxxx@stud.kea.dk",
                     IsActive = true,
                     StudentIdNumber = 123458
                 },
                 new StudentModel
                 {
-                    FirstName = "Jeppe",
-                    LastName = "Dyekjær",
-                    EmailAddress = "jepp564d@stud.kea.dk",
+                    FirstName = "Jxxxxx",
+                    LastName = "Dxxxxxxx",
+                    EmailAddress = "jxxxxxxx@stud.kea.dk",
                     IsActive = true,
                     StudentIdNumber = 123459
                 },
                 new StudentModel
                 {
-                    FirstName = "Osvald",
-                    LastName = "Minddal",
-                    EmailAddress = "osva0015@stud.kea.dk",
+                    FirstName = "Oxxxxx",
+                    LastName = "Mxxxxxx",
+                    EmailAddress = "oxxxxxxx@stud.kea.dk",
                     IsActive = true,
                     StudentIdNumber = 123460
                 }
